@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ramen Mang Subang</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/grid.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+	<nav>
+		<div class="row">
+			<img src="img/logo.jpg" alt="Ramen Mang Subang logo" class="logo">
+			<ul class="main-nav">
+				<li><a href="#">Home</a></li>
+				<li><a href="#About-us">About us</a></li>
+				<li><a href="#main-menu">Menu</a></li>
+				<li><a href="#main-gallery">Gallery</a></li>
+				<li><a href="#Contact-us">Contact us</a></li>
+			</ul>
+		</div>
+	</nav>
+
+		<div class="hero-text-box">
+		<h1>Ramen Mang Subang.<br>"Rasa Juara Selera Para Jawara"</h1>
+		<a class=" btn btn-ghost" href="#About-us">Show More</a>
+	</div>
+</header>
+
+	<section class="section-about"id="About-us">
+		<div class="row">
+			<h2 class="head-title">RAMEN MANG SUBANG</h2>
+		</div>
+		<div class="row">
+			<div class="about-content">
+				<div class="col span-2-of-4 box">
+						<h3>Ramen Mang Subang</h3>
+					<p>
+						restoran yang menyediakan ramen ala jepang, tetapi cocok untuk semua kalangan. Dan Ramen Mang Subang hanya ada di Jl.Otto Iskandardinata No.196, Karanganyar, Kec.Subang, Kab.Subang, Jawabarat 41211
+					</p>
+				</div>
+			</div>
+
+			<div class="col span-1-of-4 box">
+				<img src="img/Ruang.jpeg">
+			</div>
+			<div class="col span-1-of-4 box">
+				<img src="img/chef.jpg">
+			</div>
+		</div>
+	</section>
+		
+	</div>
+
+
+	<script>
+		var content = document.querySelector('.head-title');
+
+		window.onscroll = () => {
+			animateOnScroll();
+		}
+
+		document.onload = function ()
+
+
+		function animateOnScroll() {
+			if (window.scrollY > 130) {
+				content.classList.add('head-title-onScroll');
+			} else {
+				content.classList.remove('head-title-onScroll');
+			}
+		}
+
+
+		// COPYRIGHT DAFFA DZIBAN FADIA. MENGHAPUS ATAU MENGUBAH SCRIPT INI -> JAHANAM IS WAITING FOR
+	</script>
+</body>
+</html>
